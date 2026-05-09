@@ -1,0 +1,41 @@
+Q. What is VPC(Virtual Private Cloud) ?
+    -A VPC is a Virtual Private Network inside cloud where your cloud 
+    resources communicate securely.
+    -like a private office network inside a company.
+Q. What is Subnet ?
+    -A subnet is a smaller division of a VPC Network.
+    -Large Network are division into smaller part of:
+    1. security
+    2.better management
+    3.performance
+     Types of subnet:
+     1. Public 
+        *What is public subnet?: 
+        -A subnet where server can directly communicate with internet.
+     2. Private:
+        *What is private Network ?:
+        -A subnet where resources are not directly accessible from the 
+        internet.
+        *Why we use private subnet ?:
+        -beacuse sensitive resources should remain hidden.
+        -Ex. datatbases, backend API, Interneal Applications
+Q. What is Firewall Rules?
+    -Firewalls Rules Control:- 
+        -Who can access Your VM, Which ports are allowed, which traffic 
+        should be block
+Q. What is Routes?
+    -Route decide where traffic should go.
+Q. What is Load Balancer?
+    -Load Balancer distribute traffic across multiple servers.
+    -Benefits of Load Balancer:
+        1. High availability-(if one server fails automatically other work)
+        2. Better performmance-(traffic divided)
+        3. Scalability-(Easy to add servers)
+Q. Difference between Public and Private Subnets
+    Public:
+        -Internet Accessible
+        -Used for web apps
+    Private:
+        -No direct internet access
+        -Used for databases
+
