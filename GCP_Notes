@@ -39,3 +39,9 @@ Q. Difference between Public and Private Subnets
         -No direct internet access
         -Used for databases
 
+GCP Bucket Creation and host website:
+Search --> Cloud storage -->Create Bucket --> Remove Prevent Public access--> 
+Grant Access --> write -allUsers --> Storage Object Viewer --> Create
+ 
+Download https://templatemo.com/
+ go to bucket --> click upload option --> upload downloaded tampelate folder --> index.html --> copy URL and Paste in new trab of web browser
